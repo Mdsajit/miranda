@@ -1,0 +1,196 @@
+/*
+font family integrated
+    
+*/
+
+@font-face {
+    font-family: domine;
+    src: url(./fonts/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+    font-family: third-font;
+    src: url(./fonts/5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* html, body {
+    height: 100%;
+    width: 100%;
+} */
+
+#page-one {
+    height: 140vh;
+    width: 100vw;
+    background-color: #C4BCB3;
+    overflow: hidden;
+}
+
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#nav {
+    height: 110px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#nav img {
+    height: 30px;
+    width: 30%;
+}
+
+#nav h5 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#nav i {
+    width: 5%;
+    text-align: right;
+}
+
+#banner-elements {
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elements-one {
+    width: 30%;
+    height: 100%;
+}
+#elements-two {
+    width: 30%;
+    height: 100%;
+    border-right:2px solid #5a5a5a;
+    padding: 20px 30px;
+    text-align: center;
+    border-left: 2px solid #5a5a5a;
+}
+#elements-three {
+    width: 30%;
+    height: 100%;
+}
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elements-one #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elements-three #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img {
+    scale: 1.2;
+}
+
+#elements-one h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elements-one h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#elements-one p {
+    font-size: 20px;
+    font-family: "domine";
+    font-weight: 100;
+    color: #656565;
+}
+
+#elements-three h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elements-three h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#elements-three p {
+    font-size: 20px;
+    font-family: "domine";
+    font-weight: 100;
+    color: #656565;
+}
+
+#elements-two h2 {
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+}
+
+#elements-two h3 {
+    font-family: third-font;
+    font-size: 35px;
+    font-weight: 100;
+    color: #252424;
+}
+
+#elements-two h6 {
+    font-family: third-font;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 20px 0;
+    color: #252424;
+}
+
+#page-one h1{
+    font-size: 600px;
+    letter-spacing: -25px;
+    font-family: canopee;
+    font-weight: 100;
+    text-align: center;
+    color: #C4BCB3;
+    background: #1C1C1A;
+    line-height: 550px;
+    width: 96%;
+    margin-left: 2%;
+}
+
+#page-two {
+    height: 100vh;
+    width: 100%;
+    background-color: #C4BCB3;
+}
